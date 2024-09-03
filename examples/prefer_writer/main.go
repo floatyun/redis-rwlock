@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	rwlock "github.com/e-chip/redis-rwlock"
-	"github.com/go-redis/redis"
+	rwlock "github.com/floatyun/redis-rwlock"
+	"github.com/go-redis/redis/v7"
 )
 
 const (

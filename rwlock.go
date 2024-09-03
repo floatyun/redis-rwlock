@@ -3,8 +3,8 @@
 package rwlock
 
 import (
-	"github.com/e-chip/redis-rwlock/pkg/rwlock"
-	"github.com/go-redis/redis"
+	"github.com/floatyun/redis-rwlock/pkg/rwlock"
+	"github.com/go-redis/redis/v7"
 )
 
 // Locker is an alias type to #rwlock.Locker

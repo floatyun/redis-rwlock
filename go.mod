@@ -1,8 +1,8 @@
-module github.com/e-chip/redis-rwlock
+module github.com/floatyun/redis-rwlock
 
-go 1.13
+go 1.20
 
 require (
-	github.com/go-redis/redis v6.15.9+incompatible
-	github.com/gofrs/uuid v3.3.0+incompatible
+	github.com/go-redis/redis/v7 v7.4.1
+	github.com/gofrs/uuid v4.4.0+incompatible
 )
